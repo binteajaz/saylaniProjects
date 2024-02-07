@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(165deg, rgb(87, 87, 160), rgb(90, 33, 90), rgb(43, 91, 110));
+}
+
+.to-do {
+    width: 100%;
+    max-width: 540px;
+    background-color: white;
+    margin: 100px auto;
+    padding: 30px 40px 200px;
+    border-radius: 15px;
+}
+
+.forButtons{
+    display: flex;
+    margin: 5px;
+    float: right;
+}
+
+.ulDiv{
+    display: block;
+}
+
+.list{
+    list-style: none;
+}
+
+.to-do h1{
+    font-weight: bolder;
+}
+
+#del{
+    padding: 5px;
+    margin: 5px;
+}
+
+#upd{
+    padding: 5px;
+    margin: 5px;
+}
