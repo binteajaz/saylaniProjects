@@ -1,0 +1,49 @@
+*,
+*::before,
+::after {
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    background-size: cover;
+    background-image: linear-gradient(0deg, rgba(255, 166, 0, 0.541),  rgba(255, 166, 0, 0.541)), url(ali.jpg);
+}
+
+.content{
+    height: 365px;
+    width: 290px;
+    position: relative;
+}
+
+.card{
+    height: 375px;
+    width: 300px;
+    overflow: hidden;
+    transition: background 0.9s;
+    /*overflow: hidden;*/
+    background: url(ali.jpg) center center no-repeat;
+    background-size: 300px;
+    border-radius: 10px;
+}
+
+.card:hover {
+    background: url(ali.jpg) left no-repeat;
+    background-size: 600px;
+}
+
+.card:hover h2,
+.card:hover .fa{
+    opacity: 1;
+}
+
+h2{
+    font-family: cursive;
+    color: black;
+}

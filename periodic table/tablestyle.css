@@ -1,0 +1,86 @@
+*{
+  margin: 0;
+  background-color: black;
+  font-family:cursive;
+}
+
+
+.heading{
+  font-size: 70px;
+  color: white;
+}
+
+td{
+    color: white;
+    text-align: center;
+    width: 5vw;
+    font-weight: 700;
+    size: 12px;
+}
+
+.none{
+
+    border: none;
+}
+
+.color1{
+
+    background-color: rgba(12, 205, 205, 0.84);
+
+}
+
+.color2{
+
+    background-color: rgba(58, 99, 201, 0.687);
+}
+
+.color3{
+
+    background-color: rgb(92, 33, 84);
+}
+
+.color4{
+
+    background-color: rgb(228, 99, 0);
+}
+
+.color5{
+
+    background-color: rgb(62, 122, 51);
+}
+
+.color6{
+
+    background-color: rgb(40, 224, 248);
+}
+
+.color7{
+
+    background-color: rgb(175, 8, 8);
+}
+
+.color8{
+
+    background-color: rgb(192, 117, 4);
+}
+
+.color9{
+
+    background-color: rgb(67, 142, 228);
+}
+
+.color10{
+
+    background-color: rgb(198, 173, 9);
+}
+
+.color11{
+
+    background-color: rgb(128, 180, 96);
+}
+
+td:hover {
+    filter: brightness(200%);
+    color: black;
+    cursor: pointer;
+}

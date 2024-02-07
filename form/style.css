@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body{
+
+    background: url(wp2036002.jpg) no-repeat top center;
+    background-size: cover;
+    height: 100vh;
+}
+.wrapper{
+    position: fixed;
+    top: 50%;
+    width: 100%;
+    padding: 0 20px;
+    transform: translateY(-50%);
+}
+
+.contact-form{
+    max-width: 550px;
+    margin: 0 auto;
+    background: rgba(0, 0, 0, 0.683);
+    padding: 30px;
+    border-radius: 5px;
+    display: flex;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.048);
+}
+
+.input-fields{
+    display: flex;
+    flex-direction: column;
+    margin-right: 5%;
+}
+
+.input-fields,
+.msg{
+     width: 50%;
+
+}
+.input-fields, .input,
+ .msg textarea{
+    margin: 10px;
+    background: transparent;
+    border: 0;
+    border-bottom: 2px solid rgb(222, 137, 11);
+    padding: 12px;
+    color:  rgb(222, 137, 11);
+    width: 100%;
+
+}
+
+.msg textarea{
+    height: 200px;
+}
+
+.radio{
+    margin-top: 5px;
+   
+}
+
+::-webkit-input-placeholder{
+    color:  rgba(230, 155, 85, 0.694);
+}
